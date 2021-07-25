@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/Arun-Kumar-Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,8 +42,8 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Customer Executive in forestAthome"
+              date="Nov. 2019 - Dec. 2020"
               content={[
                 "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
                 " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
@@ -66,19 +66,19 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="Full-Stack Web Development - [Masai School] "
+              date="Jan. 2021 - Present"
+              content={[`Won First Prize for Jiomart clone`]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
+              title="12th Board - [Ramgarh College, Ramgarh, JH]"
               date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              content={["Precentage: 65%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
+              title="10th Board - [S.N. High School, Barkakana, JH] "
               date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              content={["Precentage: 80%"]}
             />
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
